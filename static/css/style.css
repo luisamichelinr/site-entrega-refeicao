@@ -1,19 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto';
 }
 
 header {
-    background-color: red;
+    background-color: rgb(226, 0, 0);
     display: flex;
     align-items: center;
-    padding: 1vh;
+    position: fixed;
+    width: 100vw;
+    box-shadow: 0px 0px 10px rgb(41 2 2 / 20%);
 }
 
 .logo {
-    width: 15vh;
-    height: 15vh;
+    margin-left: 1.5vh;
+    width: 12vh;
+    height: 12vh;
     border-radius: 100%;
 }
 
@@ -21,25 +27,106 @@ header {
     font-family: 'Audiowide';
     font-size: 5vh;
     color: white;
-    margin-left: 2vw;
+    margin-left: 1vw;
     margin-right: 30vw;
 }
 
 header nav a {
     align-items: center;
-    padding-left: 10vh;
+    padding-left: 15vh;
     text-decoration: none;
     color: white;
     font-family: 'Audiowide';
+    font-size: 3vh;
 }
 
 .rastrear-botao {
-    background-color: white;
-    color: red;
+    background-color: #ff4545;
+    color: white;
     border-radius: 5vh;
     padding: 1vh 2vh;
     font-family: 'Audiowide';
     font-size: 3vh;
     text-decoration: none;
-    margin-left: 10vh
+    margin-left: 10vh;
+    box-shadow: 7px 7px 8px rgb(41 2 2 / 20%);
+    transition: 0.5s;
 }
+
+.rastrear-botao:hover {
+    background-color: white;
+    color: red;
+    transition: 0.5s;
+    box-shadow: 7px 7px 8px rgb(41 2 2 / 50%);
+}
+
+.banner {
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    padding-top: 12vh;
+    height: 88vh;
+
+    display: flex;
+    justify-content: center;
+}
+
+.banner-texto {
+    margin-top: 18vh;
+    text-align: center;
+    width: 40vw;
+    color: white;
+
+}
+
+.banner-texto h1 {
+    font-family: 'Audiowide';
+    font-size: 10vh;
+}
+
+.banner-texto p {
+    font-size: 4vh;
+    margin: 3vh 0 5vh;
+}
+
+.cardapio-botao {
+    background-color: white;
+    color: red;
+    border-radius: 5vh;
+    padding: 1vh 2vh;
+    font-family: 'Audiowide';
+    font-size: 4vh;
+    text-decoration: none;
+    box-shadow: 7px 7px 8px rgb(41 2 2 / 20%);
+    transition: 0.5s;
+}
+
+.cardapio-botao:hover {
+    background-color: #ff4545;
+    color: white;
+    transition: 0.5s;
+    box-shadow: 7px 7px 8px rgb(41 2 2 / 50%);
+}
+
+.cardapio {
+    padding: 5vh 0;
+    text-align: center;
+}
+
+.cardapio div {
+    display: inline-block;
+    margin: 5vh 2vw;
+    width: 20vw;
+}
+
+.cardapio div img {
+    width: 15vw;
+    height: 15vw;
+    border-radius: 100%;
+    display: block;
+    margin: 3vh auto;
+}
+
+.cardapio
