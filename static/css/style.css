@@ -111,14 +111,53 @@ header nav a {
 }
 
 .cardapio {
-    padding: 5vh 0;
+    padding: 5vh 5vh 5vh 0;
     text-align: center;
 }
 
 .cardapio div {
     display: inline-block;
-    margin: 5vh 2vw;
+    display: inline-block;
+    margin: 0 1vw;
+    padding: 5vh 0;
     width: 20vw;
+
+}
+
+
+.cardapio-texto {
+    padding-right: 5vh;
+}
+
+.cardapio-texto h2 {
+    font-family: 'Audiowide';
+    font-size: 5vh;
+    color: black;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+.cardapio-produtos {
+    background-color: rgb(255, 223, 223);
+    border-radius: 3vh;
+    transition: 0.5s;}
+
+.cardapio-produtos:hover {
+    background-color: #e47575;
+    box-shadow: 7px 7px 8px rgb(41 2 2 / 20%);
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.cardapio-produtos:hover h3 {
+    color: white;
+    transition: 0.5s;
+}
+
+.cardapio-produtos:hover a {
+    background-color: white;
+    color: red;
+    transition: 0.5s;
 }
 
 .cardapio div img {
@@ -126,7 +165,24 @@ header nav a {
     height: 15vw;
     border-radius: 100%;
     display: block;
-    margin: 3vh auto;
+    margin: 5vh auto;
+    box-shadow: 4px 5px 2px 0 rgb(41 2 2 / 20%);
 }
 
-.cardapio
+
+.cardapio div h3 {
+    font-size: 4vh;
+    color: black;
+    transition: 0.5s;
+}
+
+.cardapio div a {
+    text-decoration: none;
+    color: white;
+    font-size: 3vh;
+    background-color: #ff4545;
+    padding: 1vh 2vh;
+    border-radius: 5vh;
+    box-shadow: 7px 7px 8px rgb(41 2 2 / 20%);
+    transition: 0.5s;
+}
