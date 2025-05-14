@@ -14,6 +14,7 @@ header {
     position: fixed;
     width: 100vw;
     box-shadow: 0px 0px 10px rgb(41 2 2 / 20%);
+    z-index: 999;
 }
 
 .logo {
@@ -104,8 +105,9 @@ header nav a {
 }
 
 .cardapio-botao:hover {
-    background-color: #ff4545;
+    background-color: red;
     color: white;
+    font-size: 5vh;
     transition: 0.5s;
     box-shadow: 7px 7px 8px rgb(41 2 2 / 50%);
 }
@@ -117,16 +119,16 @@ header nav a {
 
 .cardapio div {
     display: inline-block;
-    display: inline-block;
     margin: 0 1vw;
-    padding: 5vh 0;
+    padding: 6vh 0;
     width: 20vw;
-
 }
 
-
 .cardapio-texto {
-    padding-right: 5vh;
+    position: relative;
+    bottom: 15vh;
+    right: 1vw;
+    font-size: 3vh;
 }
 
 .cardapio-texto h2 {
@@ -134,31 +136,13 @@ header nav a {
     font-size: 5vh;
     color: black;
     text-align: center;
-    margin-bottom: 5vh;
+    margin-bottom: 2vh;
 }
 
 .cardapio-produtos {
     background-color: rgb(255, 223, 223);
     border-radius: 3vh;
     transition: 0.5s;}
-
-.cardapio-produtos:hover {
-    background-color: #e47575;
-    box-shadow: 7px 7px 8px rgb(41 2 2 / 20%);
-    transform: scale(1.1);
-    transition: 0.5s;
-}
-
-.cardapio-produtos:hover h3 {
-    color: white;
-    transition: 0.5s;
-}
-
-.cardapio-produtos:hover a {
-    background-color: white;
-    color: red;
-    transition: 0.5s;
-}
 
 .cardapio div img {
     width: 15vw;
@@ -185,4 +169,89 @@ header nav a {
     border-radius: 5vh;
     box-shadow: 7px 7px 8px rgb(41 2 2 / 20%);
     transition: 0.5s;
+}
+
+.cardapio-produtos:hover {
+    background-color: #d65656;
+    box-shadow: 7px 7px 8px rgb(41 2 2 / 20%);
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.cardapio-produtos:hover h3 {
+    color: white;
+    transition: 0.5s;
+}
+
+.cardapio-produtos:hover a {
+    background-color: white;
+    color: red;
+    transition: 0.5s;
+}
+.novos-clientes div {
+    margin: 6vh 0;
+    display: inline-block;
+}
+
+.foto-novos-clientes {
+    width: 50vw;
+}
+
+.novos-clientes-texto {
+    padding-left: 4vw;
+    width: 40vw;
+    text-align: center;
+    position: relative;
+    bottom: 20vh;
+}
+
+.novos-clientes-texto h2 {
+    font-family: 'Audiowide';
+    font-size: 5vh;
+    color: black;
+    text-align: center;
+    margin-bottom: 1vh;
+}
+
+.novos-clientes-texto p {
+    margin: 0 0 5vh;
+    font-size: 3vh;
+}
+
+.cardapio2-botao {
+    text-decoration: none;
+    color: white;
+    font-size: 4vh;
+    background-color: #ff4545;
+    padding: 1vh 3vh;
+    border-radius: 5vh;
+    box-shadow: 7px 7px 8px rgb(41 2 2 / 20%);
+    transition: 0.5s;
+}
+
+.cardapio2-botao:hover {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-size: 5vh;
+    transition: 0.5s;
+}
+
+footer {
+    background-color: #d43030;
+    padding: 2vh 3vw;
+}
+
+footer div div {
+    display: inline-block;
+    margin: 0 1vw;
+    padding: 6vh 0;
+    width: 20vw;
+    font-size: 3vh;
+    color: white;
+}
+
+footer div div a {
+    text-decoration: none;
+    color: white;
+    display: block;
 }
