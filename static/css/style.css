@@ -236,22 +236,75 @@ header nav a {
     transition: 0.5s;
 }
 
+.clientes {
+    padding: 5vh 5vh 5vh 0;
+    text-align: center;
+}
+
+.clientes div {
+    margin: 6vh 1vw;
+    text-align: left;
+    display: inline-block;
+    background-color: rgb(255, 223, 223);
+}
+
+.clientes div div {
+    display: inline-block;
+}
+
+.clientes div p {
+    width: 20vw;
+}
+
+.clientes img {
+    width: 4vw;
+    height: 4vw;
+    border-radius: 100%;
+}
+
 footer {
     background-color: #d43030;
     padding: 2vh 3vw;
 }
 
-footer div div {
+.footer-texto div {
     display: inline-block;
-    margin: 0 1vw;
+    margin: 0 5vw 0 3vw;
     padding: 6vh 0;
-    width: 20vw;
     font-size: 3vh;
     color: white;
+}
+
+footer div div h4 {
+    font-family: 'Audiowide';
+    font-size: 3vh;
+    margin-bottom: 2vh;
 }
 
 footer div div a {
     text-decoration: none;
     color: white;
     display: block;
+    transition: ;
+}
+
+footer div div a:hover {
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.footer-final {
+    text-align: center;
+}
+
+.footer-final div {
+    display: inline-block;
+    font-size: 2vh;
+    color: white;
+
+}
+
+.footer-final div p {
+    position: relative;
+    bottom: 5vh;
 }
