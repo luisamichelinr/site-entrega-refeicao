@@ -286,6 +286,136 @@ header nav a {
     transition: 0.5s;
 }
 
+.rastreamento {
+    padding: 17vh 5vh 0;
+}
+
+.rastreamento div {
+    display: inline-block;
+    margin: 0 1vw 0 0;
+    width: 42vw;
+}
+
+.rastreamento-texto {
+    width: 35vw;
+    text-align: left;
+    padding-left: 2vw;
+    position: relative;
+    bottom: 50vh;
+}
+
+.rastreamento-texto h5 {
+    font-family: 'Audiowide';
+    font-size: 5vh;
+    color: black;
+    margin-bottom: 1vh;
+}
+
+.rastreamento-texto label {
+    font-size: 3vh;
+    display: block;
+    margin-bottom: 2vh;
+}
+
+.rastreamento-texto input {
+    padding: 1vh;
+    border-radius: 5vh;
+    border: 1px solid black;
+    box-shadow: 7px 7px 8px rgb(41 2 2 / 20%);
+    text-align: center;
+    margin-right: 1vw;
+    font-size: 3vh;
+}
+
+button {
+    background-color: #ff4545;
+    color: white;
+    border-radius: 5vh;
+    padding: 1vh 2vh;
+    font-family: 'Audiowide';
+    font-size: 3vh;
+    text-decoration: none;
+    border: none;
+    box-shadow: 7px 7px 8px rgb(41 2 2 / 20%);
+    transition: 0.5s;;
+}
+
+button:hover {
+    background-color: red;
+    transform: scale(1.1);
+    transition: 0.5s;
+    box-shadow: 7px 7px 8px rgb(41 2 2 / 50%);
+}
+
+.feedback {
+    padding: 5vh 5vh;
+    text-align: center;
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.feedback div {
+    display: inline-block;
+    width: 40vw;
+}
+
+.feedback h5 {
+    font-family: 'Audiowide';
+    font-size: 5vh;
+    color: black;
+    margin-bottom: 1vh;
+}
+
+.feedback p {
+    font-size: 3vh;
+    margin-bottom: 5vh;
+}
+
+.feedback form {
+    text-align: left;
+}
+
+.feedback label {
+    display: block;
+    text-align: left;
+    font-size: 3vh;
+    margin-bottom: 1vh;
+
+}
+
+.feedback input {
+    padding: 1vh 1vw;
+    border-radius: 5vh;
+    border: 1px solid black;
+    box-shadow: 7px 7px 8px rgb(41 2 2 / 20%);
+    text-align: lef;
+    margin-bottom: 3vh;
+    font-size: 3vh;
+    width: 30vw;
+}
+
+.feedback textarea {
+    padding: 1vh 1vw;
+    border-radius: 2vh;
+    border: 1px solid black;
+    box-shadow: 7px 7px 8px rgb(41 2 2 / 20%);
+    text-align: left;
+    margin-bottom: 5vh;
+    font-size: 3vh;
+    width: 30vw;
+}
+
+.feedback button {
+    margin: 0 0 0 2vh;
+}
+
+.feedback img {
+    width: 40vw;
+    height: 60vh;
+    border-radius: 5vh;
+    margin: 5vh 0;
+}
+
 footer {
     background-color: #d43030;
     padding: 2vh 3vw;
@@ -309,7 +439,7 @@ footer div div a {
     text-decoration: none;
     color: white;
     display: block;
-    transition: ;
+    transition: 0.5s;
 }
 
 footer div div a:hover {
