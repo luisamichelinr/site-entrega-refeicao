@@ -34,7 +34,7 @@ header {
 
 header nav a {
     align-items: center;
-    padding-left: 15vh;
+    padding-left: 12vh;
     text-decoration: none;
     color: white;
     font-family: 'Audiowide';
@@ -241,25 +241,49 @@ header nav a {
     text-align: center;
 }
 
-.clientes div {
+.clientes h4 {
+    font-family: 'Audiowide';
+    font-size: 5vh;
+    color: black;
+    text-align: center;
+    margin-bottom: 1vh;
+}
+
+.clientes-comentarios {
     margin: 6vh 1vw;
     text-align: left;
     display: inline-block;
     background-color: rgb(255, 223, 223);
+    border-radius: 3vh;
+    padding: 4vh;
+    width: 20vw;
+    transition: 0.5s;
 }
+
+.clientes-comentarios div p {
+    font-size: 3vh;
+    font-style: italic;
+    margin-left: 1vw;
+}
+
 
 .clientes div div {
     display: inline-block;
+    margin-bottom: 2vh;
 }
 
-.clientes div p {
-    width: 20vw;
-}
 
 .clientes img {
     width: 4vw;
     height: 4vw;
     border-radius: 100%;
+}
+
+.clientes-comentarios:hover {
+    background-color: #d65656;
+    box-shadow: 7px 7px 8px rgb(41 2 2 / 20%);
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 footer {
